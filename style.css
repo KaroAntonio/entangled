@@ -1,0 +1,42 @@
+@font-face {
+    font-family:"Karo";
+    src: url("assets/karofont.ttf") /* TTF file for CSS3 browsers */
+}
+
+html, body {
+    /*font-family: "Karo";*/
+    overflow: hidden;
+    margin: 0;
+    border: 0;
+    cursor: none;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("assets/reflex_moon.gif");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+#screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.letter {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    opacity: 0.8;
+}
